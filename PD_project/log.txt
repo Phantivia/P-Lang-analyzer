@@ -1,0 +1,15 @@
+Step. 1: SYNTAX: $ S'   CODE:  <int><a><;>Use summoner :S'-->S + S'
+
+Step. 2: SYNTAX: $ S' S   CODE:  <int><a><;>Use summoner :S-->A + L + ;
+
+Step. 3: SYNTAX: $ S' ; L A   CODE:  <int><a><;>Use summoner :A-->A' + K
+
+Step. 4: SYNTAX: $ S' ; L K A'   CODE:  <int><a><;>Use summoner :A'-->int
+
+Step. 5: SYNTAX: $ S' ; L K int   CODE:  <int><a><;>Use summoner :int
+Step. 6: SYNTAX: $ S' ; L K   CODE:  <a><;>Use summoner :$
+Step. 7: SYNTAX: $ S' ; L   CODE:  <a><;>Use summoner :L-->id + L'
+
+Step. 8: SYNTAX: $ S' ; L' id   CODE:  <a><;>Use summoner :id
+Step. 9: SYNTAX: $ S' ; L'   CODE:  <;>Use summoner :$
+Step. 10: SYNTAX: $ S' ;   CODE:  <;>Use summoner :;

@@ -1,0 +1,11 @@
+id=0 symbol=S' y=0 x=0.333333 parent_id=0
+id=1 symbol=S y=0.2 x=0.333333 parent_id=0
+id=2 symbol=S' y=0.2 x=0.666667 parent_id=0
+id=3 symbol=A y=0.4 x=0.25 parent_id=1
+id=4 symbol=L y=0.4 x=0.5 parent_id=1
+id=5 symbol=; y=0.4 x=0.75 parent_id=1
+id=6 symbol=A' y=0.6 x=0.2 parent_id=3
+id=7 symbol=K y=0.6 x=0.4 parent_id=3
+id=9 symbol=id y=0.6 x=0.6 parent_id=4
+id=10 symbol=L' y=0.6 x=0.8 parent_id=4
+id=8 symbol=int y=0.8 x=0.5 parent_id=6

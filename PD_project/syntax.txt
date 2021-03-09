@@ -1,0 +1,54 @@
+S' > S S'
+S' > $
+S > Z L;
+S > A L;
+S > id B
+S > if(X){S}Q
+S > while(X){S'}
+S > for(S S S){S'}
+S > def id(L){S'}
+S > E;
+S > $
+B > (L);
+B > R E;
+B > =E;
+B > ;
+L > id L'
+L'> , id L'
+L'> $
+Q > else{S'}
+Q > $
+X > E R E
+E > T E'
+E > +T E'
+E > -T E'
+E' > M E'
+E' > $
+M > +T
+M > -T
+T > F T'
+T' > N T'
+T' > $
+N > *F
+N > /F
+F > id Y
+F > const
+F > (E)
+Y > [E]
+Y > $
+R > >
+R > >=
+R > <
+R > <=
+R > ==
+R > !=
+A' > char
+A' > int
+A' > long
+A' > float
+A' > double
+A > A'K
+K > $
+K > []K
+Z > global
+Z > local
